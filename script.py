@@ -14,7 +14,7 @@ def get_chatgpt_response(prompt):
     return response.choices[0].message.content
 
 # Load BOLD dataset
-bold_data = pd.read_csv('bold.csv')  # adjust format as needed
+bold_data = pd.read_json('profession_prompt.json')  # adjust format as needed
 
 # Collect responses
 results = []
