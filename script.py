@@ -3,7 +3,7 @@ import openai
 import pandas as pd
 
 # Set up OpenAI API
-openai.api_key = 'your-api-key'
+openai.api_key = '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'
 
 def get_chatgpt_response(prompt):
     response = openai.ChatCompletion.create(
